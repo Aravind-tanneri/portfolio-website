@@ -1,0 +1,42 @@
+[
+  {
+    "id": "4",
+    "type": "project",
+    "period": "May-June 2026",
+    "title": "StudyNotion",
+    "org": "Personal Project",
+    "location": "Remote",
+    "description": "Built a full-stack EdTech platform with separate student and instructor workflows, course management, authentication, and cloud-based content delivery.",
+    "tags": ["React", "Node.js", "MongoDB", "Express"]
+  },
+  {
+    "id": "1",
+    "type": "project",
+    "period": "December 2025",
+    "title": "WeatherApp",
+    "org": "Personal Project",
+    "location": "Remote",
+    "description": "Built and deployed a responsive weather application that consumes real-time weather data through an external API, with location search and a dynamic user interface.",
+    "tags": ["JavaScript", "TailwindCSS", "API"]
+  },
+  {
+    "id": "2",
+    "type": "started",
+    "period": "August 2025 — PRESENT",
+    "title": "Competitive Programming",
+    "org": "Codeforces / LeetCode",
+    "location": "Online",
+    "description": "Regularly solving algorithmic problems and participating in competitive programming contests, focusing on data structures, greedy algorithms, dynamic programming, graphs, and problem solving.",
+    "tags": ["C++", "Algorithms", "Competitive Programming"]
+  },
+  {
+    "id": "3",
+    "type": "education",
+    "period": "August 2025 — PRESENT",
+    "title": "B.Tech — Computer Science & Engineering",
+    "org": "NIT Andhra Pradesh",
+    "location": "Tadepalligudem, AP",
+    "description": "Pursuing Computer Science with a focus on data structures, algorithms, operating systems, databases, and computer networks. Building projects alongside competitive programming.",
+    "tags": ["C++", "DSA", "Computer Science"]
+  }
+]

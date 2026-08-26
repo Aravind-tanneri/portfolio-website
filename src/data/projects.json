@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "number": "01",
+    "category": "WEATHER APPLICATION",
+    "title": "WEATHERAPP",
+    "description": "A responsive weather application that fetches real-time weather data through an external API, with location search, dynamic weather information, and a clean responsive interface.",
+    "tags": ["JavaScript", "TailwindCSS", "Weather API"],
+    "image": "src/assets/weatherApp.png",
+    "imageAlt": "Weather App",
+    "githubLink": "https://github.com/Aravind-tanneri/WeatherApp",
+    "liveLink": "https://weatherapp-peach-eight.vercel.app/"
+  },
+  {
+    "id": "2",
+    "number": "02",
+    "category": "EDTECH PLATFORM",
+    "title": "STUDYNOTION",
+    "description": "A full-stack EdTech platform where students can explore and purchase courses while instructors can create and manage course content, with authentication, progress tracking, and cloud-based media management.",
+    "tags": ["React", "Node.js", "MongoDB", "Express"],
+    "image": "src/assets/studyNotion.png",
+    "imageAlt": "Study Notion",
+    "githubLink": "https://github.com/Aravind-tanneri/StudyNotion",
+    "liveLink": "https://study-notion-frontend-gamma-red.vercel.app/"
+  }
+]

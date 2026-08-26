@@ -1,0 +1,24 @@
+{
+  "roles": [ "BUILD_PROCESS", "CP_THREAD", "FULLSTACK_PROCESS", "UI_DAEMON" ],
+  "taglines": [
+
+    "$ whoami",
+    "$ chmod +x dreams",
+    "$ git checkout -b new-idea",
+    "$ git commit -m \"why not\"",
+    
+    "$ sudo apt install consistency",
+    "$ ./try_again.sh",
+    "$ ./self --update",
+    "$ life --debug",
+    "$ kill -9 procrastination"
+  ],
+  "socials": [
+    { "id": "github",     "title": "GitHub",      "url": "https://www.github.com/Aravind-tanneri" },
+    { "id": "linkedin",   "title": "LinkedIn",    "url": "https://www.linkedin.com/in/aravindtanneri/" },
+    { "id": "leetcode",   "title": "LeetCode",    "url": "https://leetcode.com/u/AravindTanneri/" },
+    { "id": "codeforces", "title": "Codeforces",  "url": "https://codeforces.com/profile/tanneriaravind2007" },
+    { "id": "codechef",   "title": "CodeChef",    "url": "https://codechef.com/users/aravindt2007" },
+    { "id": "email",      "title": "Email",       "url": "mailto:tanneriaravind2007@gmail.com" }
+  ]
+}

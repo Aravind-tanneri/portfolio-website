@@ -1,0 +1,28 @@
+{
+  "heading": "$ WHOAMI",
+  "paragraphs": [
+    "I'm a Computer Science student at NIT Andhra Pradesh who enjoys building things and understanding how they work under the hood. My main interests are competitive programming, full-stack development, and turning ideas into practical, usable products.",
+    "Outside of solving algorithmic problems, I spend my time building web applications, experimenting with new technologies, and participating in hackathons and developer communities. I prefer learning by building — shipping projects, breaking things, and figuring out how to make them better."
+  ],
+  "currentWork": {
+    "title": "B.Tech — Computer Science & Engineering",
+    "org": "NIT Andhra Pradesh",
+    "year": "2nd Year",
+    "status": "ACTIVE",
+    "focus": [
+      { "label": "DSA & Competitive Programming", "pct": 75 },
+      { "label": "Fullstack Web Development", "pct": 70 },
+      { "label": "Hackathons & Projects", "pct": 50 }
+    ]
+  },
+  "skills": [
+    { "name": "C++", "icon": "https://cdn.simpleicons.org/cplusplus/ffffff" },
+    { "name": "JavaScript", "icon": "https://cdn.simpleicons.org/javascript/ffffff" },
+    { "name": "React", "icon": "https://cdn.simpleicons.org/react/ffffff" },
+    { "name": "Node.js", "icon": "https://cdn.simpleicons.org/nodedotjs/ffffff" },
+    { "name": "Express", "icon": "https://cdn.simpleicons.org/express/ffffff" },
+    { "name": "MongoDB", "icon": "https://cdn.simpleicons.org/mongodb/ffffff" },
+    { "name": "TailwindCSS", "icon": "https://cdn.simpleicons.org/tailwindcss/ffffff" },
+    { "name": "Git", "icon": "https://cdn.simpleicons.org/git/ffffff" }
+  ]
+}

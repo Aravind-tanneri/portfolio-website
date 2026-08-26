@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-space: "Space Mono", monospace;
+  --font-inter: "Inter", sans-serif;
+  --color-brand-teal: #7a9c8b;
+  --color-brand-gray: #a3a3a3;
+  --color-brand-light: #e5e5e5;
+}

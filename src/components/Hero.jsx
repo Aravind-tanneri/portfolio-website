@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect';
 import { Code2, Mail } from 'lucide-react';
 import { LeetCode, Codeforces, CodeChef } from './icons';
 import heroData from '../data/hero.json';
+import seashoreBg from '../assets/seashore-bg.png';
 
 // Icon resolver — maps social IDs to rendered icons
 const SocialIcon = ({ id, size = 18 }) => {
@@ -36,7 +37,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="./src/assets/seashore-bg.png"
+          src={seashoreBg}
           alt="Background"
           className="w-full h-full object-cover object-[70%_center] md:object-center opacity-80"
         />

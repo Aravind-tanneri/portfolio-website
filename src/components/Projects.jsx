@@ -1,6 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { ExternalLink, Github } from './icons';
 import projectsData from '../data/projects.json';
+import weatherAppImg from '../assets/weatherApp.png';
+import studyNotionImg from '../assets/studyNotion.png';
+
+const projectImages = {
+  '1': weatherAppImg,
+  '2': studyNotionImg,
+  'weatherApp.png': weatherAppImg,
+  'studyNotion.png': studyNotionImg,
+};
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -39,7 +48,13 @@ const Projects = () => {
         {projectsData.map((project) => (
           <div key={project.id} className="flex flex-col md:flex-row gap-8 md:gap-12 items-start group">
             <div className="w-full md:w-1/2 aspect-video bg-[#111] rounded-lg border border-white/10 flex items-center justify-center text-brand-gray/30 overflow-hidden relative">
-              <span className="font-space text-sm tracking-widest z-10"><img src={project.image} alt={project.imageAlt} className="w-full h-full object-cover"></img></span>
+              <span className="font-space text-sm tracking-widest z-10 w-full h-full">
+                <img 
+                  src={projectImages[project.id] || project.image} 
+                  alt={project.imageAlt} 
+                  className="w-full h-full object-cover"
+                />
+              </span>
               <div className="absolute inset-0 bg-brand-teal/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
             <div className="w-full md:w-1/2 space-y-6 pt-2">

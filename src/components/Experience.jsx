@@ -7,7 +7,7 @@ const typeConfig = {
   project:     { color: 'text-[#8b9cf5]',    border: 'border-[#8b9cf5]',    bg: 'bg-[#8b9cf5]/10',    dot: 'bg-[#8b9cf5]',    label: 'PROJECT'     },
   achievement: { color: 'text-[#f5c87a]',    border: 'border-[#f5c87a]',    bg: 'bg-[#f5c87a]/10',    dot: 'bg-[#f5c87a]',    label: 'ACHIEVEMENT' },
   work:        { color: 'text-[#f58b8b]',    border: 'border-[#f58b8b]',    bg: 'bg-[#f58b8b]/10',    dot: 'bg-[#f58b8b]',    label: 'WORK'        },
-  started:     { color: 'text-[#f59f9f]',    border: 'border-[#f59f9f]',    bg: 'bg-[#f59f9f]/10',    dot: 'bg-[#f59f9f]',    label: 'STARTED'     },
+  learning:     { color: 'text-[#f59f9f]',    border: 'border-[#f59f9f]',    bg: 'bg-[#f59f9f]/10',    dot: 'bg-[#f59f9f]',    label: 'LEARNING'     },
 };
 
 const Card = ({ item, cfg, align }) => (

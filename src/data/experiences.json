@@ -1,5 +1,25 @@
 [
   {
+    "id": "6",
+    "type": "work",
+    "period": "September 2026 - Present",
+    "title": "ClinicFlow",
+    "org": "Intern",
+    "location": "Remote",
+    "description": "Developing a SaaS platform for clinics and hospitals to manage doctor appointments, patient bookings, and online consultations through an integrated dashboard.",
+    "tags": ["React", "Node.js", "MongoDB", "Express", "webSockets"]
+  },
+  {
+    "id": "5",
+    "type": "work",
+    "period": "September 2026 - Present",
+    "title": "Technical Team Member",
+    "org": "Google Developer Student Clubs (GDSC)",
+    "location": "NIT ANDHRA PRADESH",
+    "description": "Contributing to technical initiatives, workshops, and development activities, helping students learn and build projects using modern software technologies.",
+    "tags": ["Web Development", "MERN", "React-Native"]
+  },
+  {
     "id": "4",
     "type": "project",
     "period": "May-June 2026",
@@ -21,7 +41,7 @@
   },
   {
     "id": "2",
-    "type": "started",
+    "type": "learning",
     "period": "August 2025 — PRESENT",
     "title": "Competitive Programming",
     "org": "Codeforces / LeetCode",

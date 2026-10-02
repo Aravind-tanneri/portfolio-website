@@ -7,17 +7,17 @@
     "org": "Intern",
     "location": "Remote",
     "description": "Developing a SaaS platform for clinics and hospitals to manage doctor appointments, patient bookings, and online consultations through an integrated dashboard.",
-    "tags": ["React", "Node.js", "MongoDB", "Express", "webSockets"]
+    "tags": ["React", "Node.js", "Postgress","Prisma","Express", "Whatsapp Business API", "AWS"]
   },
   {
     "id": "5",
     "type": "work",
     "period": "September 2026 - Present",
-    "title": "Technical Team Member",
-    "org": "Google Developer Student Clubs (GDSC)",
+    "title": "Technical LEAD",
+    "org": "Google Developer Student Club (GDSC)",
     "location": "NIT ANDHRA PRADESH",
     "description": "Contributing to technical initiatives, workshops, and development activities, helping students learn and build projects using modern software technologies.",
-    "tags": ["Web Development", "MERN", "React-Native"]
+    "tags": ["Web Development", "MERN"]
   },
   {
     "id": "4",

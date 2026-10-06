@@ -6,8 +6,8 @@
     "title": "ClinicFlow",
     "org": "Intern",
     "location": "Remote",
-    "description": "Developing a SaaS platform for clinics and hospitals to manage doctor appointments, patient bookings, and online consultations through an integrated dashboard.",
-    "tags": ["React", "Node.js", "Postgress","Prisma","Express", "Whatsapp Business API", "AWS"]
+    "description": "Developing a WhatsApp-First CRM for clinics and hospitals to manage doctor appointments, patient bookings, and online consultations through an integrated dashboard.",
+    "tags": ["React", "Node.js", "Postgress","Prisma","Express", "Whatsapp Business API", "AWS","TypeScript"]
   },
   {
     "id": "5",

@@ -3,7 +3,7 @@
     "id": "6",
     "type": "work",
     "period": "September 2026 - Present",
-    "title": "ClinicFlow",
+    "title": "AshwiniCare Pvt Ltd",
     "org": "Intern",
     "location": "Remote",
     "description": "Developing a WhatsApp-First CRM for clinics and hospitals to manage doctor appointments, patient bookings, and online consultations through an integrated dashboard.",
@@ -13,7 +13,7 @@
     "id": "5",
     "type": "work",
     "period": "September 2026 - Present",
-    "title": "Technical LEAD",
+    "title": "Development LEAD",
     "org": "Google Developer Student Club (GDSC)",
     "location": "NIT ANDHRA PRADESH",
     "description": "Contributing to technical initiatives, workshops, and development activities, helping students learn and build projects using modern software technologies.",
@@ -28,16 +28,6 @@
     "location": "Remote",
     "description": "Built a full-stack EdTech platform with separate student and instructor workflows, course management, authentication, and cloud-based content delivery.",
     "tags": ["React", "Node.js", "MongoDB", "Express"]
-  },
-  {
-    "id": "1",
-    "type": "project",
-    "period": "December 2025",
-    "title": "WeatherApp",
-    "org": "Personal Project",
-    "location": "Remote",
-    "description": "Built and deployed a responsive weather application that consumes real-time weather data through an external API, with location search and a dynamic user interface.",
-    "tags": ["JavaScript", "TailwindCSS", "API"]
   },
   {
     "id": "2",

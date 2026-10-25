@@ -7,6 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+.env
+
+T_ARAVIND_RESUME.pdf
+T_ARAVIND_RESUME.docx
+
+
 node_modules
 dist
 dist-ssr

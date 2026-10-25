@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import { Code2, Mail } from 'lucide-react';
+import { Code2, Mail, Download } from 'lucide-react';
 import { LeetCode, Codeforces, CodeChef } from './icons';
 import heroData from '../data/hero.json';
 import seashoreBg from '../assets/seashore-bg.png';
@@ -32,6 +32,9 @@ const SocialIcon = ({ id, size = 18 }) => {
 };
 
 const Hero = () => {
+  const resumeUrl = typeof heroData.resume === 'string' ? heroData.resume : heroData.resume?.url || heroData.resumeUrl;
+  const resumeTitle = heroData.resume?.title || 'Resume';
+
   return (
     <section className="relative w-full min-h-screen flex flex-col overflow-hidden">
       {/* Background Image with Overlay */}
@@ -101,6 +104,22 @@ const Hero = () => {
               />
             </div>
           </div>
+
+          {/* Resume Download Button */}
+          {resumeUrl && (
+            <div className="pt-2 md:pt-3">
+              <a
+                href={resumeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-brand-teal/10 text-brand-teal border border-brand-teal/30 hover:bg-brand-teal hover:text-black font-space text-xs tracking-wider uppercase transition-all duration-300 group shadow-sm hover:shadow-[0_0_15px_rgba(122,156,139,0.35)] w-fit"
+                title="Download Resume"
+              >
+                <Download size={14} className="transition-transform group-hover:translate-y-0.5" />
+                <span>{resumeTitle}</span>
+              </a>
+            </div>
+          )}
         </main>
 
         {/* Bottom Socials */}

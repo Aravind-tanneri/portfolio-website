@@ -20,5 +20,9 @@
     { "id": "codeforces", "title": "Codeforces",  "url": "https://codeforces.com/profile/tanneriaravind2007" },
     { "id": "codechef",   "title": "CodeChef",    "url": "https://codechef.com/users/aravindt2007" },
     { "id": "email",      "title": "Email",       "url": "mailto:tanneriaravind2007@gmail.com" }
-  ]
+  ],
+  "resume": {
+    "title": "Resume",
+    "url": "https://drive.google.com/file/d/1EhHo01NCmgXoZh_0QcAEULr-_6PRXZsq/view"
+  }
 }

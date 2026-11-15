@@ -1,7 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { Code2, Mail, Download } from 'lucide-react';
-import { LeetCode, Codeforces, CodeChef } from './icons';
+import { LeetCode, Codeforces, CodeChef, AtCoder } from './icons';
 import heroData from '../data/hero.json';
 import seashoreBg from '../assets/seashore-bg.png';
 
@@ -26,6 +26,7 @@ const SocialIcon = ({ id, size = 18 }) => {
     case 'leetcode':   return <LeetCode size={size} />;
     case 'codeforces': return <Codeforces size={size} />;
     case 'codechef':   return <CodeChef size={size} />;
+    case 'atcoder':    return <AtCoder size={size} />;
     case 'email':      return <Mail size={size} strokeWidth={1.5} />;
     default:           return <Code2 size={size} strokeWidth={1.5} />;
   }

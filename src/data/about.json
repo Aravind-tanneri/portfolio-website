@@ -23,6 +23,12 @@
     { "name": "Express", "icon": "https://cdn.simpleicons.org/express/ffffff" },
     { "name": "MongoDB", "icon": "https://cdn.simpleicons.org/mongodb/ffffff" },
     { "name": "TailwindCSS", "icon": "https://cdn.simpleicons.org/tailwindcss/ffffff" },
-    { "name": "Git", "icon": "https://cdn.simpleicons.org/git/ffffff" }
+    { "name": "Git", "icon": "https://cdn.simpleicons.org/git/ffffff" },
+    { "name": "TypeScript", "icon": "https://cdn.simpleicons.org/typescript/ffffff" },
+    { "name": "PostgreSQL", "icon": "https://cdn.simpleicons.org/postgresql/ffffff" },
+    { "name": "Next.js", "icon": "https://cdn.simpleicons.org/nextdotjs/ffffff" },
+    { "name": "Prisma", "icon": "https://cdn.simpleicons.org/prisma/ffffff" },
+    { "name": "Docker", "icon": "https://cdn.simpleicons.org/docker/ffffff" },
+    { "name": "AWS", "icon": "/aws.svg" }
   ]
 }
